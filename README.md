@@ -1,17 +1,19 @@
-# tonepilot-site balance simplified version
+# Harmonic Compass EQ site
 
-This is a direct replacement for the static GitHub Pages site.
+Static GitHub Pages sales site for Harmonic Compass EQ.
 
 ## Files to replace
 - `index.html`
 - `styles.css`
 - `main.js`
+- `assets/harmonic-compass-transparent.png`
+- `assets/harmonic-compass-demo.mp4`
+- `assets/harmonic-compass-demo-poster.jpg`
 
-## Keep existing download files
-Do not delete the `downloads/` folder in the live repo. The page still points to:
+## Checkout
+The purchase buttons use the live $8 Stripe Payment Link configured in `main.js`.
 
-- `downloads/tonepilot-compass-eq-beta-1-macos.zip`
-- `downloads/tonepilot-compass-eq-beta-1-macos.sha256`
+The installer is paid software. Do not commit it or place it in `downloads/`; GitHub Pages files are public even when the page does not link to them.
 
 ## Direction
 Removed the wellness/calm language and rebuilt the page around:
@@ -19,5 +21,7 @@ Removed the wellness/calm language and rebuilt the page around:
 - visual balance
 - EQ correction
 - faster mix decisions
-- AU/VST3 macOS beta
-- real-session testing
+- AU, VST3, and standalone macOS release
+- source-aware Auto, Bass, and Guitar learning
+- one-time $8 purchase
+- a real-time Learn and Follow demo in Cubase
