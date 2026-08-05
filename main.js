@@ -1,4 +1,4 @@
-const checkoutUrl = 'https://buy.stripe.com/dRmeVfc6z1aO0ZR1BU1Fe01';
+const checkoutUrl = 'https://buy.stripe.com/6oU6oG2JiaAQfQLgYN8Ra00';
 
 document.querySelectorAll('.checkout-link').forEach((link) => {
   if (checkoutUrl) {
