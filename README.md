@@ -1,6 +1,6 @@
-# Harmonic Compass EQ site
+# Harmonic Compass site
 
-Static GitHub Pages sales site for Harmonic Compass EQ.
+Static GitHub Pages sales site for Harmonic Compass.
 
 ## Files to replace
 - `index.html`
@@ -21,6 +21,7 @@ Do not commit installers or downloadable builds to this public GitHub Pages repo
 Removed the wellness/calm language and rebuilt the page around:
 
 - visual balance
+- Dynamic EQ for finding balance in a mix
 - EQ correction
 - faster mix decisions
 - AU, VST3, and standalone macOS release
