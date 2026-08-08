@@ -64,7 +64,7 @@ main {
 .hero {
   min-height: calc(100svh - 58px);
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1fr);
   align-items: start;
   gap: 2.75rem;
   padding: 4.5rem 0 3.5rem;
@@ -88,7 +88,7 @@ p {
 h1 {
   margin-bottom: 1.1rem;
   max-width: 900px;
-  font-size: 6rem;
+  font-size: clamp(4.4rem, 8vw, 6rem);
   line-height: 0.94;
   letter-spacing: 0;
 }
@@ -223,6 +223,15 @@ h2 {
   background: #090a0a;
 }
 
+.interface-shot {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: #090a0a;
+  box-shadow: var(--shadow);
+}
+
 .section {
   display: grid;
   grid-template-columns: minmax(260px, 0.86fr) minmax(0, 0.62fr);
@@ -309,6 +318,7 @@ h2 {
 
   .hero {
     min-height: auto;
+    padding-top: 3rem;
   }
 
   .product-frame {

@@ -9,11 +9,13 @@ Static GitHub Pages sales site for Harmonic Compass EQ.
 - `assets/harmonic-compass-transparent.png`
 - `assets/harmonic-compass-demo.mp4`
 - `assets/harmonic-compass-demo-poster.jpg`
+- `assets/harmonic-compass-eq-preview.jpg`
 
 ## Checkout
+
 The purchase buttons use the live $8 Stripe Payment Link configured in `main.js`.
 
-The installer is paid software. Do not commit it or place it in `downloads/`; GitHub Pages files are public even when the page does not link to them.
+Do not commit installers or downloadable builds to this public GitHub Pages repo. License delivery should happen after checkout using the buyer email, either manually at first or through a Stripe webhook fulfillment flow.
 
 ## Direction
 Removed the wellness/calm language and rebuilt the page around:
